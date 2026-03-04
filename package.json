@@ -9,19 +9,39 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@mantine/carousel": "^8.3.15",
+    "@mantine/core": "^8.3.15",
+    "@mantine/dates": "^8.3.15",
+    "@mantine/form": "^8.3.15",
+    "@mantine/hooks": "^8.3.15",
+    "@mantine/modals": "^8.3.15",
+    "@mantine/nprogress": "^8.3.15",
+    "@mantine/spotlight": "^8.3.15",
+    "@tabler/icons-react": "^3.38.0",
+    "dayjs": "^1.11.19",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
+    "eslint": "^9.39.3",
+    "eslint-config-mantine": "^4.0.3",
     "eslint-config-next": "16.1.6",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "postcss": "^8.5.8",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8.56.1"
   }
 }

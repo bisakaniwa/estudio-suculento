@@ -5,6 +5,8 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
+  ...mantine,
+  { ignores: ['**/*.{mjs,cjs,js,d.ts,d.mts}'] },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
